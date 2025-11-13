@@ -1,3 +1,3 @@
-export function middleware(request) {
+export function middleware() {
   return Response.next();
 }
