@@ -1,3 +1,3 @@
-export const config = {
-  matcher: [],
-};
+export function middleware(request) {
+  return Response.next();
+}
